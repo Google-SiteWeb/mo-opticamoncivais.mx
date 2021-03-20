@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosf.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="../img/ICO/OjosICO.ico">
+    
+        </head>
+<body>
+    <ul class="menu">
+        <li><a href="../index.html">PRINCIPAL</a></li>
+        <li><a href="../productos.html">PRODUCTOS</a></li>
+    </ul>
+
+    <header class="header" id="inicio">
+        
+               <div class="contenedor head">
+            <h1 class="titulo">Optica Moncivais</h1>
+            <p class="copy">Nosotros nos comunicaremos con usted a la brevedad posible.</p>
+        </div>
+        
+    </header>
+        <form action="enviar.php" method="POST">
+        <div class="form" id="form">
+            <h1>Contactanos</h1>
+            <div class="grupo">
+                <input type="text" name="nombre" id="name" required><span class="barra"></span>
+                <label>Nombres y Apellidos</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="email" id="email" required><span class="barra"></span>
+                <label>E-mail</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="edad" id="edad" required><span class="barra"></span>
+                <label>Número de celular o fijo</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="asunto" id="edad" required><span class="barra"></span>
+                <label>Asunto</label>
+            </div>
+            <div class="grupo">
+                <textarea name="mensaje" id="mensaje" rows="3" required></textarea><span class="barra"></span>
+                <label>Mensaje</label>
+                
+            </div>
+            <P class="terminos"> Al presionar "Enviar" aceptas nuestros <a href="../terminos.html" class="h-terminos">Términos y Condiciones </a>.</p>
+                        <button type="submit">Enviar</button>
+                        <p class="warnings" id="warnings"></p>
+        </div>
+    </form>
+    
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Moncivais Optica/Optica Moncivais</h2>
+                    <p>&copy;MO- Moncivais Optica. Todos los derechos reservados.</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/opticamoncivais/" target="_blank" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+</body>
+</html>
